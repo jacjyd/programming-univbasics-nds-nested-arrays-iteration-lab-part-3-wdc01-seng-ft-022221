@@ -17,9 +17,5 @@ def join_nested_strings(src)
     end
     row_index += 1
   end
-  n=0
-  while mega_string_array[n] do
-    mega_string_array[n] + " "
-    n += 1
-  end 
+  mega_string_array.join(" ")
 end
