@@ -17,7 +17,7 @@ def join_nested_strings(src)
   end 
   n=0
   while mega_string_array[n] do
-    print mega_string_array[n] + " "
+    p mega_string_array[n] + " "
     n += 1
   end 
 end
