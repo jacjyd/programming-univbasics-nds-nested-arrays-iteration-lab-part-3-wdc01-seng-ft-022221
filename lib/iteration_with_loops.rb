@@ -17,7 +17,6 @@ def join_nested_strings(src)
     end
     row_index += 1
   end
-  binding.pry
   n=0
   while mega_string_array[n] do
     p mega_string_array[n] + " "
